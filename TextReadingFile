@@ -1,0 +1,10 @@
+There are mainly 4 approaches to read the content of the file and store it in the array. They are mentioned below-
+
+Using BufferedReader to read the file
+Using Scanner to read the file
+readAllLines() method
+Using FileReader
+1. Using BufferedReader to read the file
+
+It was the easiest way for developers to code it to get the content of the file and it is also a preferred way to read the file because it takes fewer number reading calls because it uses a char buffer that simultaneously reads multiple values from a character input stream.
+BufferedReader bf=new BufferedReader (new FileReader(filename))
